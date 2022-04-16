@@ -1,0 +1,25 @@
+*::selection {
+  background-color: black;
+  color: #fff;
+}
+
+.gap {
+  gap: 20px;
+}
+
+.active {
+  color: #0a58ca !important;
+}
+.navbar-brand {
+  font-size: 26px;
+}
+
+button.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+@media screen and (max-width: 960px) {
+  ul.gap {
+    gap: 0;
+  }
+}
