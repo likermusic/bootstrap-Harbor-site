@@ -24,7 +24,7 @@
     ></script>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light pt-4 pb-4">
       <div class="container justify-content-end">
         <a class="navbar-brand text-primary me-auto d-block d-lg-none" href="#"
           >harbor</a
@@ -88,52 +88,94 @@
           type="button"
           data-bs-target="#carouselExampleIndicators"
           data-bs-slide-to="0"
-          class="active"
+          class="active btn-ind"
           aria-current="true"
           aria-label="Slide 1"
         ></button>
         <button
+          class="btn-ind"
           type="button"
           data-bs-target="#carouselExampleIndicators"
           data-bs-slide-to="1"
           aria-label="Slide 2"
         ></button>
         <button
+          class="btn-ind"
           type="button"
           data-bs-target="#carouselExampleIndicators"
           data-bs-slide-to="2"
           aria-label="Slide 3"
         ></button>
       </div>
-      <div class="carousel-inner">
+      <div class="carousel-inner border border-danger position-relative">
+        <!-- -->
+        <div
+          class="promo d-inline-block bg-white position-absolute top-50 start-50 translate-middle p-2 px-3 p-md-5"
+        >
+          <h1>Interior Design</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing <br />
+            elit. Voluptatibus quam, ratione earum.
+          </p>
+          <a class="btn btn-primary" href="#">Get in touch</a>
+        </div>
         <div class="carousel-item active">
-          <img src="..." class="d-block w-100" alt="..." />
+          <img src="images/hero_1.jpg" class="d-block w-100" />
         </div>
         <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="..." />
+          <img src="images/hero_2.jpg" class="d-block w-100" />
         </div>
         <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="..." />
+          <img src="images/hero_3.jpg" class="d-block w-100" />
         </div>
       </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
     </div>
+
+    <section class="portfolio">
+      <div class="container">
+        <div class="row py-5 my-4"></div>
+        <div class="row mb-5">
+          <div class="col border border-danger">
+            <h2>OUR WORK</h2>
+          </div>
+          <div class="col text-end border border-danger">
+            <a href="" class="d-inline-block pt-2 text-black text-decoration-none fw-bold">VIEW ALL WORKS</a>
+          </div>
+         </div>
+         <div class="row gx-5">
+          <div class="col-lg-6 card border-0">
+           <a href="#"><img src="images/about_3.jpg" class="card-img-top"></a>
+            <div class="card-body mt-2 px-0">
+              <a href="#" class="card-title display-6 fs-3 text-decoration-none text-black">Creative Modern House</a>
+              <p class="card-text">New York City, USA</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6 card border-0">
+            <a href="#"><img src="images/about_2.jpg" class="card-img-top"></a>
+             <div class="card-body mt-2 px-0">
+               <a href="#" class="card-title display-6 fs-3 text-decoration-none text-black">Creative Modern House</a>
+               <p class="card-text">New York City, USA</p>
+             </div>
+           </div>
+
+           <div class="col-lg-6 card border-0">
+            <a href="#"><img src="images/about_1.jpg" class="card-img-top"></a>
+             <div class="card-body mt-2 px-0">
+               <a href="#" class="card-title display-6 fs-3 text-decoration-none text-black">Creative Modern House</a>
+               <p class="card-text">New York City, USA</p>
+             </div>
+           </div>
+
+           <div class="col-lg-6 card border-0">
+            <a href="#"><img src="images/about_3.jpg" class="card-img-top"></a>
+             <div class="card-body mt-2 px-0">
+               <a href="#" class="card-title display-6 fs-3 text-decoration-none text-black">Creative Modern House</a>
+               <p class="card-text">New York City, USA</p>
+             </div>
+           </div>
+ 
+         </div>
+    </section>
   </body>
 </html>
