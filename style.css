@@ -47,6 +47,16 @@ button.navbar-toggler:focus {
   background-color: #3e64ff;
   padding: 120px 0;
 }
+
+footer {
+  background-color: #ddd;
+  padding: 120px 0;
+}
+
+footer input:focus {
+  outline: none;
+}
+
 @media screen and (max-width: 960px) {
   ul.gap {
     gap: 0;
